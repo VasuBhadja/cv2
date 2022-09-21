@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    text-align: center;  /* This will center everything that doesn't have a width set.*/
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1{
+    margin-top: 50px;
+    /* width:10%;           This is the width-set.
+    margin: 0 auto 0 auto;  This means margin of top=0 right=auto bottom=0 left=auto  */
+    font-family: 'Sacramento', cursive;
+    /* font-size: 90px;  This will not be dynamic font-size. If user changes his font-size from browser then this will remain unchanged. */
+    font-size: 5.625rem;   /* 100%==16px==1em so for 90px use corresponding. */
+    /* The only issue with % and em is that it gets inherited and scaled up. That is if body has 2em and then you make h1 as 5.625em then 
+    h1 becomes gigantic. This is because these are relative sizes. So as to overcome this we use rem or root em, the beauty of rem is 
+    that it does not get affected by upstream size changes.    */
+    margin-bottom: 0px;
+    color: #66BFBF;
+    /* line-height: 2; */
+}
+
+p{
+    line-height: 2;
+}
+.top-container{
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position:relative;
+    
+    
+}
+
+.bottom-cloud{
+    position:absolute;
+    left:350px;
+    bottom:300px;
+}
+.top-cloud{
+    position:absolute;
+    right:350px;
+    top:50px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+.pro{
+    text-decoration: underline;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+.programmer{
+    font-weight: normal;
+}
+.skill-row{
+    width: 50%;
+    margin:100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+/* .code-skill-desc{
+    clear: left;
+    This acts an the opposite of float and clear the left margin 
+}  */
+.after-hello{
+    margin: 0 auto 100px auto;
+    width: 40%;
+}
+hr.dotted{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 7px;
+    width: 5%;
+}
+img.angela{
+    margin-top: 70px;
+}
+h2.my-skills{
+    margin-top: 75px;
+}
+/* .btn{
+    display: inline-block;
+    margin: 50px;
+} */
+
+
+ .get-in-touch{
+    margin-top: 75px;
+ }
+ .investing{
+    margin-bottom: 40px;
+ }
+
+ .testbutton {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px #7CACDE;
+    box-shadow: 1px 1px 1px #666666;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid #1F628D;
+    background: #11CDD4;
+    background: linear-gradient(to top, #11CDD4, #11999E);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  
+  .testbutton:hover {
+    color: #FFFAF7 !important;
+    background: #30E3CB;
+    background: linear-gradient(to top, #30E3CB, #2BC4AD);
+  }
+  .middle-container{
+    margin-bottom: 100px;
+  }
+  .bottom-container{
+    background-color: #66BFBF;
+    margin-bottom: 0;
+    padding: 50px 0 20px 0;
+  }
+  a.footer-link{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #EAF6F6;
+  }
+  .copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
